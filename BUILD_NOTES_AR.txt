@@ -1,0 +1,21 @@
+ملاحظات تشغيل المشروع في Visual Studio:
+
+1) لازم أسماء الملفات تكون بالضبط:
+   Memory_XO.h
+   Memory_XO.cpp
+   Infinity_XO.cpp
+   T4x4_Classes.h
+   5x5 Tic Tac Toe.h
+
+2) لو ظهر Error: Cannot open include file: 'Memory_XO.h'
+   احذف ملف Memory_XO.h و Memory_XO.cpp من Solution Explorer باستخدام Remove فقط،
+   ثم Add Existing Item من نفس فولدر المشروع بعد التأكد من الاسم بدون مسافات.
+
+3) افتح المشروع واعمل:
+   Ctrl + Shift + S
+   Build > Clean Solution
+   Build > Rebuild Solution
+
+4) لا ترفع على GitHub فولدرات:
+   .vs, x64, Debug, Release
+   ولا ملفات exe/obj/pdb.
