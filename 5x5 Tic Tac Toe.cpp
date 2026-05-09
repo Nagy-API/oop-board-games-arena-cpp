@@ -63,7 +63,6 @@ bool Five_TTT_Board::game_is_over(Player<char>*)
 {
     return n_moves == 24;
 }
-
 bool Five_TTT_Board::is_win(Player<char>* player)
 {
     if (!game_is_over(player)) return false;
@@ -73,7 +72,6 @@ bool Five_TTT_Board::is_win(Player<char>* player)
 
     return countTriples(sym) > countTriples(other);
 }
-
 bool Five_TTT_Board::is_lose(Player<char>* player)
 {
     if (!game_is_over(player)) return false;
